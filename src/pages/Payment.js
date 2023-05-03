@@ -314,22 +314,20 @@ const Payment = () => {
                                     <option value="ZM">Zambia</option>
                                     <option value="ZW">Zimbabwe</option>
                                 </select>
-                            </fieldset>
-
+                            </fieldset><br/>
                             <form data-node-type="commerce-checkout-shipping-methods-wrapper" className="w-commerce-commercecheckoutshippingmethodswrapper">
                                 <div className="w-commerce-commercecheckoutblockheader">
                                     <h4 aria-level="2">Shipping Method</h4>
                                 </div>
                                 <fieldset>
                                     <script type="text/x-wf-template" id="wf-template-f005e781-8150-7205-215f-595036096dbe">%3Clabel%20className%3D%22w-commerce-commercecheckoutshippingmethoditem%22%3E%3Cinput%20type%3D%22radio%22%20required%3D%22%22%20name%3D%22shipping-method-choice%22%2F%3E%3Cdiv%20className%3D%22w-commerce-commercecheckoutshippingmethoddescriptionblock%22%3E%3Cdiv%20className%3D%22w-commerce-commerceboldtextblock%22%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Fdiv%3E%3Cdiv%3E%3C%2Fdiv%3E%3C%2Flabel%3E</script>
-                                    <div data-node-type="commerce-checkout-shipping-methods-list" className="w-commerce-commercecheckoutshippingmethodslist" data-wf-collection="database.commerceOrder.availableShippingMethods" data-wf-template-id="wf-template-f005e781-8150-7205-215f-595036096dbe"><label className="w-commerce-commercecheckoutshippingmethoditem">
+                                    {/* <div data-node-type="commerce-checkout-shipping-methods-list" className="w-commerce-commercecheckoutshippingmethodslist" data-wf-collection="database.commerceOrder.availableShippingMethods" data-wf-template-id="wf-template-f005e781-8150-7205-215f-595036096dbe"><label className="w-commerce-commercecheckoutshippingmethoditem">
                                         <input type="radio" required="" name="shipping-method-choice" />
                                         <div className="w-commerce-commercecheckoutshippingmethoddescriptionblock">
                                             <div className="w-commerce-commerceboldtextblock"></div>
-                                            <div></div>
-                                        </div>
+                                         </div>
                                         <div></div>
-                                    </label></div>
+                                    </label></div> */}
                                     <div data-node-type="commerce-checkout-shipping-methods-empty-state" className="w-commerce-commercecheckoutshippingmethodsemptystate">
                                         <div>No shipping methods are available for the address given.</div>
                                     </div>
